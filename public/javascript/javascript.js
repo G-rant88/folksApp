@@ -9,12 +9,6 @@ $(".logout").on("click", function(event) {
 $( document ).ready(function() {
  var cook = Cookies.get('name');
 
- $(".updatepost").on("click", ()=>{
-
-    let posty = $(this).attr("data-id");
-    location.assign("/updatepost");
- })
-
  $(".myposts").on("click", ()=>{
     location.assign("/myposts/"+cook);
  })
@@ -50,3 +44,9 @@ $( document ).ready(function() {
     $(".fixed-action-btn").show();
     $(".names").prepend(cook + "'s ")
 });
+
+   $(document).on("click", ".updatepost", ()=>{
+
+    // alert($(this).data("id"));
+    location.assign("/updatepost");
+ })
