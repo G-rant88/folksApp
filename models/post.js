@@ -1,9 +1,9 @@
 module.exports = function(sequelize, DataTypes) {
   var post = sequelize.define("post", {
   
-    name: {type:DataTypes.STRING, allowNull:false},
+    item: {type:DataTypes.STRING, allowNull:false},
     image: DataTypes.STRING,
-    price: {type: DataTypes.INTEGER, allowNull:false},
+    price: {type: DataTypes.DECIMAL, allowNull:false},
     description: {type:DataTypes.STRING, allowNull:false}
     
   });

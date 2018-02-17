@@ -7,3 +7,10 @@
   main {
     flex: 1 0 auto;
   }
+
+  .cardy{
+    font-size: 25px !important;
+    font-weight: bold !important;
+    text-shadow: 2px 2px #000000 !important;
+
+  }

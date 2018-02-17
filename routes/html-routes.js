@@ -19,9 +19,18 @@ module.exports = function(app) {
 		res.render('savedposts');
 	});
 
+	app.get("/updatepost", function(req, res) {
+		res.render('updatepost');
+	});
+
 	app.get("/search", function(req, res) {
 		res.render('search');
 	});
+
+		app.get("/mycart", function(req, res) {
+		res.render('mycart');
+	});
+
 
 		app.get("*", function(req, res) {
 		res.render('home');
