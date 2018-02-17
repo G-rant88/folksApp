@@ -1,5 +1,5 @@
 {
-  "name": "travelapp",
+  "name": "folksApp",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/G-rant88/TravelApp.git"
+    "url": "git+https://github.com/G-rant88/folksApp.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/G-rant88/TravelApp/issues"
+    "url": "https://github.com/G-rant88/folksApp/issues"
   },
-  "homepage": "https://github.com/G-rant88/TravelApp#readme",
+  "homepage": "https://github.com/G-rant88/folksApp#readme",
   "dependencies": {
     "aws-sdk": "^2.171.0",
     "bluebird": "^3.5.1",
